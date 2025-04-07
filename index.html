@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <title>COFFEE SHOPS TIA ROSA</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar-container">
+
+            <!-- Barra superior de navegação -->
+            <nav>
+                <a href="#">
+                    <img src="img/logo.png" alt="logo-coffee" class="logo">
+                </a>
+                <ul class="navbar-items">
+                    <!-- <li>
+                        <a href="#">Home</a>
+                    </li> -->
+                    <li>
+                        <a href="#precos">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#loc">Local</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+        <!-- Conteudo principal da pag -->
+        <main>
+            <div class="btn-topo">
+                <section>
+                    <a href="#" class="btn"></a>
+                </section>
+            </div>
+            <div class="main-banner">
+                <h1>COFFEE SHOPS TIA ROSA</h1>
+                <p>O melhor dos coffee shops!</p>
+            </div>
+
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-solid fa-award"></i>
+                        <h3>Inovação</h3>
+                        <p>Na nossa cafeteria, a tradição encontra a inovação, criando deliciosos pratos que são
+                            obras-primas modernas!</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Rapidez</h3>
+                        <p>Redefinindo o conceito de cafés, uma gota de inovação em cada copo, na sua
+                            cafeteria de confiança!</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <h3>Atendimento</h3>
+                        <p>No coração da nossa cafeteria, o bom atendimento é a nossa assinatura, garantindo que cada
+                            visita seja uma experiência excepcional para você!</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="pricing-container">
+                <h2 id="precos">Preços</h2>
+                <p>Veja alguns dos nossos mais pedidos!</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 15,00</li>
+                            <li class="plan-name">CAFÉ COM BOLO</li>
+                            <!-- <li class="plan-btn">Saber mais</li> -->
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 6,00</li>
+                            <li class="plan-name">PINGADO</li>
+                            <!-- <li class="plan-btn">Saber mais</li> -->
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 55,00</li>
+                            <li class="plan-name">BOLO 2kg</li>
+                            <!-- <li class="plan-btn">Saber mais</li> -->
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 10,00</li>
+                            <li class="plan-name">CAPPUCHINO</li>
+                            <!-- <li class="plan-btn">Saber mais</li> -->
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 2,00</li>
+                            <li class="plan-name">PÃO DE QUEIJO</li>
+                            <!-- <li class="plan-btn">Saber mais</li> -->
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 5,00</li>
+                            <li class="plan-name">MISTO QUENTE</li>
+                            <!-- <li class="plan-btn">Saber mais</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="search-container">
+                <h2 id="loc">Nossa localização!</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.1433617282467!2d-47.915078785591215!3d-15.83496682715524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a255ac54e5865%3A0xccb35721f77a92e8!2sCentro%20Universit%C3%A1rio%20IESB%20-%20Campus%20Bras%C3%ADlia%20(Asa%20Sul)!5e0!3m2!1spt-BR!2sbr!4v1683672230000!5m2!1spt-BR!2sbr"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+
+            <section class="contact-container">
+                <h2 id="contact">Venha nos visitar!</h2>
+                <p>Envie uma mensagem para nosso WhatsApp para agendar seu horário!</p>
+                <form id="whatsapp-form">
+                    <input type="text" name="name" id="name" placeholder="Seu nome" required>
+                    <!-- <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone"> -->
+                    <textarea name="msg" id="msg" placeholder="Escreva uma mensagem!" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+
+
+        </main>
+        <footer>
+            <p>COFFEE SHOPS TIA ROSA @ 2025</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
